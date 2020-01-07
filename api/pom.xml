@@ -9,6 +9,32 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <commons-lang3.version>3.5</commons-lang3.version>
+        <commons-collections4.version>4.0</commons-collections4.version>
+        <commons-io.version>2.5</commons-io.version>
+    </properties>
+
     <artifactId>api</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>${commons-collections4.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
